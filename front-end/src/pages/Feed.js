@@ -28,7 +28,7 @@ class Feed extends Component {
     }
 
     registerToSocket = () => {
-        const socket = io('http://localhost:3333');
+        const socket = io('https://instagramfakeapp.herokuapp.com');
         
         socket.on('post', newPost => {
             this.setState({
@@ -62,7 +62,7 @@ class Feed extends Component {
                             <img src={more} alt="Mais" />
                         </header>
 
-                        <img src={`http://localhost:3333/files/${post.image}`} alt="" />
+                        <img src={`https://instagramfakeapp.herokuapp.com/files/${post.image}`} alt="" />
 
                         <footer>
                             <div className="actions">
