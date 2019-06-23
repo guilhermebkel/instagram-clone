@@ -10,11 +10,11 @@ export default function Header() {
     return(
         <header id="main-header">
             <div className="header-content">
-                <Link to="/">
+                <Link to="/Fake-Instagram">
                     <img src={logo} alt="InstaRocket" />
                 </Link>
                 
-                <Link to="/new">
+                <Link to="/Fake-Instagram/new">
                     <img src={camera} alt="Enviar publicação" />
                 </Link>    
             </div>

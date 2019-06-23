@@ -6,6 +6,6 @@ import './global.css'
 
 ReactDOM.render(
 <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Route exact path="" component={App} />
+    <Route exact path="/" component={App} />
 </BrowserRouter>
 , document.getElementById('root'));
